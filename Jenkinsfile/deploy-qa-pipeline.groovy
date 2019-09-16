@@ -5,7 +5,8 @@
 def batches
 
 pipeline {
-    agent { label 'mgmt-node' }
+    agent any
+    //agent { label 'mgmt-node' }
     parameters {
         string(name: 'nodelist', defaultValue: '', description: '')
         string(name: 'deploymentBatches', defaultValue: '', description: '')
