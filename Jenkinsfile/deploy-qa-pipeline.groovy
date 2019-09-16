@@ -1,6 +1,6 @@
-#!/usr/bin/env groovy
-@Library('jenkinsSharedLibrary_Dev')_
-import hudson.plugins.git.*;
+//#!/usr/bin/env groovy
+//@Library('jenkinsSharedLibrary_Dev')_
+//import hudson.plugins.git.*;
 
 def batches
 
